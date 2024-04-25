@@ -1,0 +1,36 @@
+.confrim{
+    height: 300px;
+    width: 400px;
+    box-shadow: 10px 10px 10px #00000015;
+    background-color: rgb(239, 238, 238);
+    margin-top: 50px;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 340px;
+    border-radius: 25px;
+} 
+.confrim img{
+    height: 100px;
+    margin-top: 30px;
+}
+.confrim h1{
+    color: brown;
+    margin-top: 10px;
+}
+.confrim p{
+    color: darkblue;
+    margin-top: 5px;
+}
+@media (max-width:1050px){
+    .confrim{
+        margin-left: 130px;
+    }
+}
+@media (max-width:750px){
+    .confrim{
+        margin-left: 5px;
+        width: 350px;
+    }
+}
